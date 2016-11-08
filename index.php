@@ -31,18 +31,18 @@ $displayName = " Joshua A Gressman";
           <h1>My First PHP Page</h1>
 
           <h2>Unit Conversion</h2>
-          <?php include'inc/units.php'?>
+          <?php include'inc/units.php'?> //this brings php in from oher pages
 
 
           <h2>Daily Exercise</h2>
-          <?php include'inc/exercise.php'?>
+          <?php include'inc/exercise.php'?> //this brings in php from other pages
         </section>
     </div>
     <section class="footer text-center">
       &copy;  <?php echo date('Y');  echo " " . $displayName . " ";
 
 // outputs e.g. 'Last modified: March 04 1998 20:43:59.'
-echo "Last modified: " . date ("F d Y H:i:s.", getlastmod());
+echo "Last modified: " . date ("F d Y H:i:s.", getlastmod()); //month day, year
 ?>
     </section>
   </body>
