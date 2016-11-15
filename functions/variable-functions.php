@@ -15,4 +15,5 @@ $func = 'add_up';
 $num = $func(5, 10);
 echo $func(); //calls the function answer
 
+
  ?>

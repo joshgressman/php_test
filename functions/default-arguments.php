@@ -20,4 +20,7 @@ function get_info($name, $title = Null){ //sets default parameter title optinal 
 //Eaither one will run the function
 //$get_info('Josh', 'President'); or
 //$get_info('Josh')
+
+
+
  ?>

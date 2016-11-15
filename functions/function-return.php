@@ -26,4 +26,8 @@ function add_up ($a, $b){
 );
   return $arr; //return that array $arr to return multiple values
 }
+$value = add_up(5, 10);
+print_r($value); // get keys and value of the array
+
+
  ?>
